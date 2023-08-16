@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   PhoneBook.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
+/*   By: abenlahb < abenlahb@student.1337.ma>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 19:36:50 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/16 12:42:59 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/16 17:18:02 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,6 @@ void PhoneBook::funSearch(){
     std::getline(std::cin,cmd);
     if(cmd.empty())
         std::cout << "";
-    i = std::stoi(cmd);
-    if(i < 1 || i > 8)
-        std::cout << "----> You can Just choose between 1-8 <----\n";
     else  
         this->array[i-1].funView();
 }

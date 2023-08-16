@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   Contact.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
+/*   By: abenlahb < abenlahb@student.1337.ma>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 19:36:20 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/16 12:04:10 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/16 17:08:53 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CONTACT_HPP
 #define CONTACT_HPP
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <cstdlib>
+#include <string>
 class Contact
 {
 private:
@@ -24,7 +25,7 @@ private:
     std::string phoneNbr;
     std::string darkestSecret;
     int indexContact;
-    bool ifExist = false;
+    bool ifExist;
     
     
 public:

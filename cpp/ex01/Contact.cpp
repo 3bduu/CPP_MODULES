@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Contact.cpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
+/*   By: abenlahb < abenlahb@student.1337.ma>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 19:36:47 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/16 12:08:25 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/16 17:05:43 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void Contact::funFill(){
 
 void Contact::funView(){
     std::string str;
-    if(this->ifExist==false){
+    if(this->ifExist!=true){
         std::cout << "----> Unavailable <----\n";
         return ;
     }
