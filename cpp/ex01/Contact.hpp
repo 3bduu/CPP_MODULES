@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Contact.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abenlahb < abenlahb@student.1337.ma>       +#+  +:+       +#+        */
+/*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 19:36:20 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/16 17:08:53 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/16 19:39:29 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ public:
        indexContact = index;
     }
     void    funFill();
-    void    funView();
+    void    funView(int x);
     void    funCoutTenOnly(std::string str);
 };
 
