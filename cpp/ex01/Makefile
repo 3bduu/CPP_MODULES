@@ -6,7 +6,7 @@
 #    By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/14 19:36:53 by abenlahb          #+#    #+#              #
-#    Updated: 2023/08/16 19:18:44 by abenlahb         ###   ########.fr        #
+#    Updated: 2023/08/18 12:05:14 by abenlahb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,10 +20,12 @@ all:$(NAME)
 
 $(NAME):$(OBJ)
 	$(CC)  $(CFLAGS) $^ -o $(NAME)
-%.o:%.cpp
-	$(CC)  $(CFLAGS) -c $< -o $@
+.cpp.o:
+	$(CC)  $(CFLAGS) -c $<
 clean:
 	rm -rf $(OBJ)
 fclean:clean
 	rm -rf $(NAME)
 re:fclean all
+
+.PHONY: re fclean all

@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Account.hpp                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/17 10:25:36 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/17 16:10:25 by abenlahb         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 // ************************************************************************** //
 //                                                                            //
@@ -35,10 +24,10 @@ public:
 
 	typedef Account		t;
 
-	// static int	getNbAccounts( void );
-	// static int	getTotalAmount( void );
-	// static int	getNbDeposits( void );
-	// static int	getNbWithdrawals( void );
+	static int	getNbAccounts( void );
+	static int	getTotalAmount( void );
+	static int	getNbDeposits( void );
+	static int	getNbWithdrawals( void );
 	static void	displayAccountsInfos( void );
 
 	Account( int initial_deposit );
