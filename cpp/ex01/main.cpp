@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   mainprj.cpp                                        :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 16:32:58 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/16 12:43:14 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/21 10:13:37 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ int main()
         std::cout << "----Choose Your Command----" << std::endl;
         std::cout << "-> ADD\n" << "-> SEARCH\n" << "-> EXIT\n" << "~";
         std::getline(std::cin,cmd);
+        if(std::cin.eof())
+            break;
         if(cmd == "ADD")
             test.funAdd();
         else if (cmd == "SEARCH")
@@ -34,3 +36,5 @@ int main()
     }
     return 0;
 }
+
+

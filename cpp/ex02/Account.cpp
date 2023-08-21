@@ -6,7 +6,7 @@
 /*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/17 11:06:08 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/18 12:26:38 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/20 16:47:36 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,10 +102,9 @@ void Account::_displayTimestamp(void){
     std::time(&currenTime);
     t = std::localtime(&currenTime);
     char buffer[80];
-    strftime(buffer, sizeof(buffer), "[%Y%m%d_%H%M%S]", t);
+    strftime(buffer, sizeof(buffer), "[%Y%m%d_%H%M%S] ", t);
 
-    std::cout << buffer << std::endl;
-    // std::cout << std::put_time(t,"[%Y%m%d_%H%M%S] ");
+    std::cout << buffer ;
 }
 int Account::getNbAccounts(void){
     return _nbAccounts;

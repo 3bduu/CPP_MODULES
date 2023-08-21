@@ -6,15 +6,15 @@
 #    By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/14 19:36:53 by abenlahb          #+#    #+#              #
-#    Updated: 2023/08/18 12:05:14 by abenlahb         ###   ########.fr        #
+#    Updated: 2023/08/21 10:55:29 by abenlahb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC = Contact.cpp mainprj.cpp PhoneBook.cpp
+SRC = Contact.cpp main.cpp PhoneBook.cpp
 OBJ = $(SRC:.cpp=.o)
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS = -Wall -Wextra -Werror 
 NAME = phonebook
-CC = g++-11
+CC = c++
 
 all:$(NAME)
 
