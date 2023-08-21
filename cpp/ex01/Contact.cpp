@@ -6,7 +6,7 @@
 /*   By: abenlahb <abenlahb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 19:36:47 by abenlahb          #+#    #+#             */
-/*   Updated: 2023/08/21 10:54:59 by abenlahb         ###   ########.fr       */
+/*   Updated: 2023/08/21 11:07:31 by abenlahb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void Contact::funFill(){
         phoneNbr = enterValue("DIGITS ONLY\nPhone Number :");
     darkestSecret = enterValue("Darkest Secret");
     while (checkInput(darkestSecret,2))
-        phoneNbr = enterValue("DIGITS || ALPHA ONLY\nDarkest Secret :");
+        darkestSecret = enterValue("DIGITS || ALPHA ONLY\nDarkest Secret :");
     ifExist = true;
 }
 
