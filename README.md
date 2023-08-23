@@ -7,8 +7,6 @@ This repository contains my solutions for the CPP modules in the 42 Network curr
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Modules](#modules)
-- [License](#license)
 
 ## Introduction
 
