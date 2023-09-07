@@ -1,7 +1,5 @@
 # 42 CPP Modules
 
-This repository contains my solutions for the CPP modules in the 42 Network curriculum. Each module covers various topics and concepts related to C++ programming.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
